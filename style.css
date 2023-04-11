@@ -23,8 +23,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: hsl(217, 19%, 24%);
-    box-shadow: 5px 5px hsl(217, 19%, 24%);
-    border-radius: 12px;
+    box-shadow: 2px 2px hsl(217, 19%, 24%);
+    border-radius: 8px;
     display: grid;
     place-items: center;
 }
