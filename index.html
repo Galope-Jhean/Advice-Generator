@@ -36,13 +36,16 @@
         <p class="header">Advice #</p>
         <p class="advice"></p>
         <div class="divider">
-          <img src="images/pattern-divider-mobile.svg" alt="divider">
+          <picture>
+            <source media="(min-width: 600px)" srcset="images/pattern-divider-desktop.svg">
+            <img src="images/pattern-divider-mobile.svg" alt="divider">
+          </picture>
         </div>
         <button>
           <img src="images/icon-dice.svg" alt="btn-icon">
         </button>
       </div>
     </main>
-    <script src="advice.js"></script>
+    <script src="fetchAdvice.js"></script>
   </body>
 </html>

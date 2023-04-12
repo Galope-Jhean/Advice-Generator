@@ -72,3 +72,22 @@ button:active{
 .attribution{
     display: none;
 }
+
+@media (min-width: 600px) {
+    .adviceContainer{
+        height: 320px;
+        width: 500px;
+    }
+
+    .header{
+        top: 40px;
+    }
+
+    .divider{
+        top: 250px;
+    }
+
+    button{
+        top: 290px;
+    }
+}
