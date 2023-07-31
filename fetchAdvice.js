@@ -6,7 +6,7 @@ const id = 0;
 
 //api fetch
 async function getAdvice() {
-    fetch('https://api.adviceslip.com/advice')
+    await fetch('https://api.adviceslip.com/advice')
     .then(response => response.json())
     .then(data => {
         adviceText.textContent = `“ ${data.slip.advice} ”`;
